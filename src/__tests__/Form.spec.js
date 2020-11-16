@@ -16,7 +16,7 @@ describe("Form", () => {
     )
 
     it("renders with weight prop", () => {
-        expect(wrapper.find("#weight").props().value).toEqual("190")
+        expect(wrapper.find("#weight").props().value).toEqual("90")
     })
 
     it("renders with height prop", () => {
