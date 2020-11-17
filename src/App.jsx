@@ -32,12 +32,13 @@ class App extends Component {
           onChangeHandler={this.onChangeHandler}
           onSubmitHandler={this.onSubmitHandler}
         />
-        {this.state=bmiValue && (
+        {/* {this.state=bmiValue && (
+          debugger */}
           <Message
             bmiValue={this.state.bmiValue}
             bmiMessage={this.state.bmiMessage}
           />
-        )}
+        {/* )} */}
       </div>
     )
   }
